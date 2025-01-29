@@ -8,8 +8,8 @@ import cv2  # For computer vision
 from PIL import ImageTk, Image  # Image compressor
 
 # Twilio credentials (hardcoded or use environment variables securely)
-sid = "ACf76343c2c2b30e01ea171d443a3575b8"  # Your Twilio SID
-auttoken = "09cb48041e1b8f5f75dbdef39ac2970e"  # Your Twilio Auth Token
+sid = "ACf76343xxxxxxxxx443a3575b8"  # Your Twilio SID
+auttoken = "09cb4xxxxxxxxxxxxxxxf39ac2970e"  # Your Twilio Auth Token
 twilio_phone_number = "+18312650893"  # Your Twilio phone number
 
 # Function to send E-Challan
@@ -143,7 +143,7 @@ while True:
             print(f"Vehicle Registration Area: {state_name}")
 
             owner_name = "MR. XXDXJX"
-            phone_number = "+918630065185"
+            phone_number = "+91x6xxxx65xx5"
 
             # Show GUI
             window(owner_name, number_plate, state_name, phone_number)
